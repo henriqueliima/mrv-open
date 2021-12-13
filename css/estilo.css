@@ -1,0 +1,844 @@
+@font-face {
+    font-family: Averta;
+    src: url(AvertaStd-Bold.ttf);
+}
+
+body {
+    padding: 0;
+    margin: 0;
+    background-color: #FFFFFF;
+    font-family: Averta, Helvetica, sans-serif;
+}
+
+#container-principal{
+    max-width: 1248px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    margin: 0 auto;
+}
+
+.vitrine-principal {
+    display: flex;
+    margin: 48px auto auto;
+} 
+
+.vitrine-principal p {
+   color: #FFFFFF;
+   font-weight: 700;
+   font-size: 40px;
+   line-height: 60px;
+   display: flex;
+   justify-content: center;
+   align-items: center;
+   text-shadow: #5D615F;
+   max-width: 500px;
+   margin: 92px auto 0px auto;
+
+}
+
+.img-fundo {
+    width: 662px;
+    height: 302px;
+    background-image: linear-gradient(#079D56,#006B3F);
+    border-radius: 32px;
+    position: relative;
+}
+
+.vitrine img {
+    height: 304px;
+    max-width: 616px;
+    border-radius: 32px;
+    margin-left: -50px;
+}
+
+.links ul {
+    list-style: none;
+    display: flex;
+    margin-left: -96px;
+}
+
+.links img {
+  width: 24px;
+  height: 22px;
+  margin-top: -4px;
+  margin-right: 4px;
+
+}
+
+.acento {
+    text-decoration: none;
+    list-style: none;
+    font-weight: bold;
+    margin:0px 4px;
+}
+
+.links ul a {
+    text-decoration: none;
+    margin-left: 4px;
+    color: #006B3F;
+    border-bottom: 1px solid #006B3F;
+    font-weight: 700;
+}
+
+.titulo {
+    font-size: 40px;
+    font-weight: 700;
+    color: #242625;
+    line-height: 60px;
+}
+
+.explore-texto{
+    display: flex;
+   align-items: start;
+    flex-wrap: wrap;
+    max-width: 1248px;
+}
+
+.explore-texto p span{
+    font-weight: 700;
+    line-height: 24px;
+    padding: 8px;
+    font-size: 16px;
+    max-width: 612px;
+}
+
+.explore-texto p {
+    line-height: 24px;
+    padding-bottom: 8px;
+    max-width: 612px;
+}
+
+.links ul li a span {
+    font-weight: 700;
+    color: black;
+    font-size: 16px;
+    line-height: 24px;  
+}
+
+.input-vagas {
+    height: 48px;
+    width: 142px;
+    background-color: #006B3F;
+    color: #FFFFFF;
+    border-radius: 8px;
+    border: none;
+    text-align: center;
+    font-weight: 700;
+    margin-top: 24px;
+    margin-bottom: 112px;
+    display: inline;
+}
+
+.valores h1{
+    font-weight: 700;
+    margin-bottom: 20px;
+    font-size: 40px;
+}
+
+.valores p {
+    font-size: 16px;
+    line-height: 24px;
+    max-width: 400px;
+}
+
+.paragrafo {
+    margin-bottom: 40px; 
+}
+
+.summary-teste{
+    font-size: 18px;
+    border-bottom: 2px solid #006B3F;
+    width: 400px;
+    margin-right: auto;
+    font-size: 16px;
+    font-weight: 700;
+    color: #006B3F;
+    line-height: 24px;
+    height: 40px;
+    
+}
+
+summary{
+    list-style: none;
+    background-image: url("../img/iconeseta.png");
+    background-repeat: no-repeat;
+    background-position: right;
+    background-size: 16px;
+    margin-bottom: 16px;
+    display: flex;
+}
+
+details[open] summary{
+    list-style: none;
+    background-image: url("../img/seta-sobe.png");
+    background-repeat: no-repeat;
+}
+
+.valores {
+    display: inline-block;
+    margin-bottom: 56px;
+    width: 400px;
+    margin: 0 auto;
+}
+
+.valores1 {
+    margin-left: 10px;
+}
+
+
+.conheca-espaco{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    margin-top: 56px;
+    margin-left: 56px;
+}
+
+.conheca-espaco h1 {
+    font-weight: 700;
+    font-size: 40px;
+    color: #242625;
+    margin-top: -8px;
+}
+
+.conheca-espaco img {
+    width: 397px;
+    height: 280px;
+}
+
+.parte-texto{
+    display: block;
+    justify-content: center;
+    align-items: center;
+    max-width: 602px;
+}
+
+.conheca-espaco p {
+    font-size: 16px;
+    color: #242625;
+    line-height: 24px;
+    min-width: 50%;
+    max-width: 612px;
+}
+
+.conheca-espaco a {
+ color: #242625;
+ font-weight: bold;
+}
+
+
+.inputs input {
+    border: 2px solid #242625;
+    width: 392px;
+    height: 40px;
+    border-radius: 8px;
+    background-color: #FFFFFF;
+}
+.inputs select {
+    border: 2px solid #242625;
+    width: 400px;
+    height: 48px;
+    border-radius: 8px;
+    background-color: #FFFFFF;
+}
+
+.vagas-disponiveis p {
+    margin-bottom: 56px;
+    font-weight: bold;
+    
+}
+
+.select-margin {
+    margin-bottom: 24px;
+}
+.select-margin3 {
+    font-size: 16px;
+}
+
+.inputs .btn {
+    background-color: #006B3F;
+    border-radius: 8px;
+    width: 83px;
+    height: 48px;
+    border: none;
+    margin-top: 24px;
+    color: #FFFFFF;
+    font-size: 16px;
+    font-weight: 700;
+    margin-left: 150px;
+}
+
+.img-canto {
+    display: flex;
+    margin-left: auto;
+    margin-top: -1250px;
+}   
+
+.vagas form {
+    font-weight: 700;
+    font-size: 18px; 
+}
+
+.vagas {
+    display: flex;
+}
+
+.logo-marcas img {
+   margin-top: 160px;
+   margin-left: 150px; 
+   
+}
+
+.imagem-canto2 {
+    display: flex;
+    margin: 700px 0px 300px auto;
+}
+
+.borda {
+    margin: 100px 153px 0px 133px;    
+}
+
+.boneco img {
+    height:266px;
+    margin-top: 200px;
+}
+.inputtext {
+    margin-top: 2px;
+}
+
+.img-seta {
+    margin-bottom: 24px;
+}
+
+
+/* dispositios maior que 1200px */
+
+@media (max-width: 1400px) { 
+    #container-principal {
+       margin-left: 56px;
+       } 
+   } 
+
+   @media (max-width: 992px) { 
+    .borda {
+       display: none;
+       } 
+   }
+
+   @media (max-width: 1176px) { 
+    .logo-marcas {
+    margin-top: -180px;
+       } 
+   }
+
+   @media (max-width: 1200px) { 
+    .valores1 {
+       margin-top: -100px;
+       } 
+   }
+   
+   @media (max-width: 1200px) { 
+    .conheca-espaco{
+        width: 90%;
+       } 
+   }
+
+   @media (max-width: 1200px) { 
+    .conheca-espaco img {
+        width: 90%;
+       } 
+   }
+ 
+   /* Dispositivos de 992px a 1200px */
+   @media (max-width: 1200px) { 
+    .imagem-canto2, .img-canto {
+       display: none;
+       } 
+   }
+ 
+   @media (max-width: 992px) { 
+    .borda {
+       display: none;
+       } 
+   }
+
+   @media (max-width: 810px) { 
+    .img-fundo p {
+      margin-top: 64px;
+       } 
+   }
+
+   @media (max-width: 992px) { 
+    .boneco {
+       margin-left: 160px;
+       } 
+   }
+
+   @media (max-width: 992px) { 
+    .conheca-espaco p {
+       font-size: 14px;
+        max-width: 312px;
+        justify-content: center;
+        display: flex;
+        align-items: center;
+        } 
+    } 
+
+    @media (max-width: 992px) { 
+        .logo-marcas {  
+       margin-top: -180px;
+       margin-bottom: 24px;
+       width: 312px;
+        } 
+    }
+
+    @media (max-width: 992px) { 
+        .vitrine img {  
+            min-width: 70%;
+        } 
+    }
+   
+    @media (max-width: 992px) { 
+        .valores1 {  
+            margin-top: 2px;
+            margin-left: -1px;
+            margin-bottom: 20px;
+        } 
+    }
+
+    /* Dispostivos de 768px a 992px */
+
+    @media (max-width: 768px) { 
+        .vitrine-principal {
+           display: none;
+        } 
+    }
+    @media (max-width: 768px) { 
+        .vagas {
+           margin: 0 auto;
+           
+        } 
+    }
+
+    @media (max-width: 768px) { 
+        .margin-btn {
+           display: flex;
+           margin-left: 32px;
+        } 
+    }
+
+    @media (max-width: 768px) { 
+        .container-valores{
+           margin-left: 56px;
+        } 
+    }
+
+    @media (max-width: 768px) { 
+        .links {
+           margin-top: 16px;
+        } 
+    }
+  
+    @media (max-width: 768px) { 
+        .boneco {
+            display: none;
+        } 
+    }
+
+    @media (max-width: 768px) { 
+        .conheca-espaco {
+            display: flex;
+            flex-direction: column-reverse;
+            max-width: 612px;
+            margin: 0 auto;
+        } 
+    }
+
+    @media (max-width: 768px) { 
+        .parte-texto p{
+            margin-left: 48px;
+            max-width: 312px;
+        } 
+    }
+
+    @media (max-width: 768px) { 
+        .inputs .btn-mobile {  
+        background-color: #219653;
+        width: 152px;
+        height: 48px;
+        font-size: 16px;
+        margin-left: auto;
+        margin-right: auto;
+        } 
+    } 
+
+    @media (max-width: 768px) { 
+        .margin-btn {  
+            width: 312px;  
+        } 
+    } 
+
+    @media (max-width: 768px) { 
+        .valores {
+          margin-left: 56px;
+           
+        } 
+    }
+
+    @media (max-width: 768px) { 
+        .container-mobile {  
+       display: flex;
+            height: 256px;
+            background-image: url("../img/Foto.png");
+            background-repeat: no-repeat;
+            background-size: cover;
+            border-bottom-left-radius: 64px; 
+                  
+        } 
+    } 
+
+    @media (max-width: 768px) { 
+        .container-mensagem-verde {  
+       display: flex;
+            height: 96px;
+            width: 314px;
+            background-image: linear-gradient(#079D56,#006B3F);
+            margin-top: 186px;
+            border-top-left-radius: 16px;
+            border-bottom-left-radius: 16px;
+            margin-left: auto;
+        } 
+    } 
+
+    @media (max-width: 768px) { 
+        .container-mensagem-verde h1{  
+       display: flex;
+            color: #FFFFFF;
+            font-size: 18px;
+            line-height: 22px;
+            font-weight: 700;
+            justify-content: center;
+            align-items: center;
+            margin-left: 16px;
+        } 
+    } 
+
+    @media (min-width: 768px) { 
+        .container-mobile {
+           display: none;
+           } 
+       }
+
+       
+    @media (max-width: 600px) { 
+        .container-valores{
+            margin-left: -56px;
+        } 
+    }
+    
+    @media (max-width: 600px) { 
+        .logo-marcas{
+            margin-left: -90px;
+        } 
+    }
+
+    /* Dispositivos menores que 568px */
+
+    @media (max-width: 500px) { 
+        #container-principal{
+            margin-left: 8px;
+        } 
+    }
+    @media (max-width: 398px) { 
+        .links{
+            margin-left: -56px;
+        } 
+    }
+
+    @media (max-width: 500px) { 
+        .conheca-espaco img{
+            height: 50%;
+        } 
+    }
+
+    @media (max-width: 500px) { 
+        .explore-texto{
+            margin-left: 24px;
+        } 
+    }
+
+    @media (max-width: 500px) { 
+        .logo-marcas{
+            margin-left: -110px;
+            
+        } 
+    }
+
+    @media (max-width: 568px) { 
+        .inputs input, .select-margin select {
+            max-width: 312px;
+        } 
+    }
+
+    @media (max-width: 568px) { 
+        .conheca-espaco {
+            display: flex;
+            flex-direction: column-reverse;
+            margin: 0 auto;
+            margin-right: auto;   
+        } 
+    }
+
+    @media (max-width: 568px) { 
+        .conheca-espaco p {
+            width: 90%;            
+        } 
+    }
+
+    @media (max-width: 568px) { 
+        .conheca-espaco h1 {
+           font-size: 18px;
+           display: flex;
+           justify-content: start;
+           margin-left: 48px;
+        } 
+    }
+
+    @media (max-width: 568px) { 
+        .select-margin3 {
+          margin-right: 4px;
+           width: 308px;
+        } 
+    }
+
+    @media (max-width: 568px) { 
+        .conheca-espaco a {
+           font-size: 14px;
+           margin-bottom: 16px;
+           
+        } 
+    }
+
+    @media (max-width: 568px) { 
+        .conheca-espaco img {
+            display: flex;
+            max-width: 312px;
+            justify-content: center;
+            margin: 0 auto;
+        } 
+    }
+
+    @media (max-width: 568px) { 
+        .titulo {
+        max-width: 254px;
+        display: flex;
+        font-size: 18px;
+        line-height: 24px;
+        } 
+    }
+    
+    @media (max-width: 568px) { 
+        .btn-vagas {
+        display: flex;
+        } 
+    }
+
+    @media (max-width: 568px) { 
+        .valores h1 {
+        line-height: 27px;
+        font-size: 18px;
+        max-width: 312px;            
+        } 
+    }
+
+    @media (max-width: 568px) { 
+        .valores p {
+        line-height: 21px;
+        font-size: 14px;
+        max-width: 312px;
+        } 
+    }
+
+    @media (max-width: 568px) { 
+        .container-valores  {
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        max-width: 312px;
+        } 
+    }
+
+    @media (max-width: 568px) { 
+        .valores1 {
+       display: none;
+       
+        } 
+    }
+
+    @media (min-width: 568px) { 
+        .bebe {
+       display: none;
+        } 
+    }
+
+    @media (max-width: 568px) { 
+        .valores {
+       max-width: 312px;
+       margin-bottom: 104px;
+       margin-left: 160px;
+        } 
+    }
+
+    @media (max-width: 568px) { 
+        .summary-teste {
+            max-width: 312px;
+        } 
+    }
+
+    @media (max-width: 568px) { 
+        .explore-texto p {
+        max-width: 312px;
+        font-size: 14px;        
+        } 
+    }
+    
+    @media (max-width: 568px) { 
+        .logo-marcas {  
+        max-width: 312px;
+        height: 99px;
+        margin-bottom: 200px;
+        margin-right: auto; 
+        } 
+    }
+
+    @media (max-width: 568px) { 
+        .logo-marcas img {  
+        width: 312px;
+        } 
+    }
+
+    @media (max-width: 568px) { 
+        .vagas-disponiveis h1 {  
+       font-size: 22px;
+        } 
+    }
+
+    @media (max-width: 568px) { 
+        .vagas-disponiveis p {  
+       font-size: 14px;
+       max-width: 312px;
+        } 
+    }
+
+    @media (max-width: 568px) { 
+        .links {  
+      font-size: 14px;
+      width: 312px;
+        } 
+    }
+
+    @media (max-width: 568px) { 
+        .inputs .btn-mobile {  
+        background-color: #219653;
+        width: 152px;
+        height: 48px;
+        font-size: 16px;
+        border-bottom: 4px solid #E5E5E5;
+        opacity: 1;
+        } 
+    } 
+
+    @media (max-width: 568px) { 
+        .margin-btn {  
+       display: flex;
+       justify-content: center;
+        } 
+    }
+
+    @media (max-width: 500px) { 
+        .valores {  
+       margin-left: -80px;
+        } 
+    }
+
+    @media (max-width: 568px) { 
+        .inputs {  
+           display: flex;
+           justify-content: center;
+           align-items: center;
+           flex-direction: column;
+        } 
+    } 
+
+    @media (max-width: 568px) { 
+        .inputs {  
+           display: flex;
+           justify-content: center;
+           align-items: center;
+           flex-direction: column;
+        } 
+    } 
+
+    @media (max-width: 500px) { 
+        .valores {  
+       margin-left: 80px;
+        } 
+    }
+
+    @media (max-width: 500px) { 
+        .parte-texto {  
+       margin-left: -120px;
+        } 
+    }
+
+    @media (max-width: 500px) { 
+        .conheca-espaco img{  
+            margin-left: -66px;
+       width: 312px;
+        } 
+    }
+
+    @media (max-width: 500px) { 
+        .conheca-espaco {  
+            margin-left: 64px;
+            width: 312px;
+        } 
+    }
+
+    @media (max-width: 500px) { 
+        .vagas {  
+       margin-left: 32px;
+        } 
+    }
+
+    @media (max-width: 400px) { 
+        .margin-btn {  
+       margin-left: -4px;
+        } 
+    }
+
+    @media (max-width: 400px) { 
+        .logo-marcas {  
+       margin-left: -160px;
+        } 
+    }
+
+    @media (max-width: 500px) { 
+        .margin-btn {  
+       margin-left: -4px;
+        } 
+    }
+
+    @media (min-width: 312px) { 
+        .links {
+        margin-left: 56px;
+           } 
+    }  
+
+
+   @media (min-width: 768px) { 
+    .container-mobile {
+       display: none;
+       } 
+   }
