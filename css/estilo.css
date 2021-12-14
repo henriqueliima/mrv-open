@@ -493,8 +493,7 @@ details[open] summary{
             background-image: url("../img/Foto.png");
             background-repeat: no-repeat;
             background-size: cover;
-            border-bottom-left-radius: 64px; 
-                  
+            border-bottom-left-radius: 64px;
         } 
     } 
 
@@ -508,6 +507,7 @@ details[open] summary{
             border-top-left-radius: 16px;
             border-bottom-left-radius: 16px;
             margin-left: auto;
+            
         } 
     } 
 
@@ -835,10 +835,16 @@ details[open] summary{
         margin-left: 56px;
            } 
     }  
+    
+    @media (max-width: 411px) { 
+        .container-mobile{
+            background-position: left;
+            margin-right: -60px;
+
+            
+           } 
+    }  
+
+ 
 
 
-   @media (min-width: 768px) { 
-    .container-mobile {
-       display: none;
-       } 
-   }
